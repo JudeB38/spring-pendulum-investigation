@@ -11,7 +11,7 @@ def get_theta2dot(a, b):
 
 
 
-x, y = np.meshgrid(np.linspace(-8, 8, 70), np.linspace(-4, 4, 70))
+x, y = np.meshgrid(np.linspace(-8, 8, 50), np.linspace(-4, 4, 50))
 u, v = y, get_theta2dot(x, y)
 c = np.sqrt(u**2 + v**2)
 
